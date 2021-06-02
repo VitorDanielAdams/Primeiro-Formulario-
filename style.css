@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+
+/* Cabeçalho */
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: rgba(218, 218, 218, 0.884);
+    color: #a80c0c;
+    font-family: Aharoni;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.header p {
+    color: black;
+}
+
+
+/* Navegacao  */
+
+.topnav {
+    overflow: hidden;
+    background-color: #800000;
+}
+
+
+/* Estilo dos links */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Alterar cor ao passar o mouse */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Crie duas colunas desiguais que flutuam próximas uma da outra */
+
+
+/* Coluna esquerda */
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.leftcolumn img {
+    height: 300px;
+    width: 500px;
+}
+
+
+/* Coluna da direita */
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+
+/*   imagem */
+
+.fakeimg {
+    position: static;
+    width: 200px;
+    padding: 20px;
+    transform: translate(-10%, -10%);
+}
+
+.fakeimg img {
+    position: static;
+    width: 160%;
+    height: 180px;
+}
+
+
+/* Adicionar um efeito de cartão para artigos */
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+/* Limpar campos alegóricos após as colunas */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Rodapé */
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.fon {
+    padding: 30px;
+    text-align: center;
+    background: #333333;
+    font-family: Aharoni;
+    color: white;
+}
+
+.fon h1 {
+    font-size: 50px;
+}
+
+.form {
+    overflow: hidden;
+    background-color: #800000;
+}
+
+.form a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Alterar cor ao passar o mouse */
+
+.form a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.center {
+    float: all;
+    padding: 30px;
+    width: 90%;
+}
+
+.receita {
+    font-family: impact;
+}
+
+.galeria {
+    position: relative;
+    border: 1px solid #ccc;
+    float: left;
+    width: 202px;
+    height: 145px;
+}
+
+.galeria:hover {
+    border: 1px solid #777;
+}
+
+.galeria img {
+    position: relative;
+    width: 200px;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.form1 {
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.form1 a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Alterar cor ao passar o mouse */
+
+.form1 a:hover {
+    background-color: #ddd;
+    color: black;
+}
